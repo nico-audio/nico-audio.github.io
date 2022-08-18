@@ -1,7 +1,7 @@
 ---
 layout: archives
-title: Archives
+title: Tutorials
 icon: fas fa-archive
-order: 3
+order: 2
 ---
 
