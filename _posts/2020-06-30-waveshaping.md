@@ -33,7 +33,7 @@ _Fig.3 Waveshaping vs linear_
 
 ### Video demonstration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q3vaxSWWWg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/q3vaxSWWWg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 
 ### References
