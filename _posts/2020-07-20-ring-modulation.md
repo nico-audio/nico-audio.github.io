@@ -1,6 +1,6 @@
 ---
 title: Ring modulation - exterminate, exterminate!
-author: Nico
+author: nico
 date: 2020-07-20 16:30:00
 categories: [Pure Data]
 ---

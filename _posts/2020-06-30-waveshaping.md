@@ -1,6 +1,6 @@
 ---
 title: Introduction to waveshaping
-author: Nico
+author: nico
 date: 2020-06-30 15:45:00
 categories: [Pure Data]
 ---
