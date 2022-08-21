@@ -1,6 +1,6 @@
 ---
 title: Comb filter - When you think about it, everything is a filter
-author: Nico
+author: nico
 date: 2020-09-02 15:25:00
 categories: [Pure Data]
 ---

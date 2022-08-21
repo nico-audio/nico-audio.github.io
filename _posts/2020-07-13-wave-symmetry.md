@@ -1,6 +1,6 @@
 ---
 title: Waveform symmetry and timbre
-author: Nico
+author: nico
 date: 2020-07-13 10:50:00
 categories: [Pure Data]
 ---
