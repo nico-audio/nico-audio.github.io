@@ -77,7 +77,7 @@ Puckette, Miller. The theory and technique of electronic music. World Scientific
 Russ, Martin. Sound synthesis and sampling. Taylor & Francis, 2004.
 
 Github repository (patches here):\ 
-ADD LINK TO REPO\
+<https://github.com/nico-audio/pd-patches>
 
 Julius Orion Smith III website pages:\
 <https://ccrma.stanford.edu/~jos/filters/What_Filter.html>\
