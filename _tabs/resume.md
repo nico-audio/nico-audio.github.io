@@ -61,3 +61,4 @@ Music Production – Dancemusic Master (2009)\
 Dancefloor DJ Academy – Lisbon, PT
 
 
+[Linkedin](https://www.linkedin.com/in/nicvieira-audio/)

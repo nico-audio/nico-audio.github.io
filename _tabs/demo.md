@@ -1,6 +1,6 @@
 ---
 #layout: categories
-title: Reels
+title: Demo
 icon: fas fa-stream
 order: 1
 ---
