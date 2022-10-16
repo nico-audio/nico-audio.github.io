@@ -10,6 +10,7 @@ order: 4
 
 - Audiokinetic Wwise
 - Unreal Engine
+- Unity
 - Reaper
 - Ableton Live
 - VCV Rack
