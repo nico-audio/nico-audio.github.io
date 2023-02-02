@@ -20,7 +20,7 @@ Here's a train I recorded to illustrate the concept. Feel free to use the sample
 
 <div style="text-align: center;"><iframe frameborder="0" scrolling="no" src="https://freesound.org/embed/sound/iframe/672249/simple/medium/" width="481" height="86"></iframe></div>
 
-### Why is it useful for me?
+### Why is it useful to me?
 
 In our daily lives, we observe this phenomenon with moving vehicles, trains and other sound emmiting objects that pass by us, as we could hear in the sample I provided before. Another commonly used example is the ambulance sound. The doppler effect gives us a perception of location as things move closer or farther away from us. In game audio, we can use this in our favor to create an environment that provides information about the surroundings to the player, translate realism and enhance immersion in the game world.
 
