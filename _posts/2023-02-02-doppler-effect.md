@@ -7,7 +7,7 @@ categories: [Pure Data, Unity]
 
 ### Introduction
 
-I've used pd before to talk about other concepts in audio here. Now, I want to write about yet another fundamental concept: the Doppler Effect. This time I also want to show you how to apply this concept in Unity so if you're not really interested in the pd part, you can jump right into the Unity section.
+I've used pd before to talk about other concepts in audio here. Now, I want to write about yet another fundamental concept: the Doppler Effect. This time I also want to show you how to apply this concept in Unity so if you're not really interested in the pd part, you can jump right into the [Unity section](https://nico-audio.github.io/posts/doppler-effect/#implementation-with-unity).
 
 The doppler effect is a shift in the perception of sound pitch as the source emitter moves relative to the listener. This change in pitch happens because the wavelength changes as the source moves. If the emitter is getting closer, the soundwave is getting compressed, which results in a reduced wavelength, thus increasing the pitch. Note that what changes is the distance between the two - the frequency emitted by the source didn't change, so the waves that are travelling through the air will have to fit in that distance. Conversely, as the emitter moves away, the waves are spread through a larger distance, making the distance between the peaks of the wave become longer and the distance between rarefactions (low-pressure areas when particles are spread apart from each other) shorter. In practice, this means that the wavelength is extended, lowering the pitch. 
 
