@@ -22,6 +22,7 @@ order: 4
 - Unreal Blueprints
 - Pure Data
 - Processing
+- C#
 
 ### EDUCATION  
 
@@ -37,8 +38,8 @@ School of Video Game Audio | 2020
 
 - Portuguese (Native)
 - English (Proficient)
-- Spanish (basic)
-- Català (basic)
+- Spanish (Intermediate)
+- Catalan (Basic)
 
 
 ## CERTIFICATIONS AND TRAINING
