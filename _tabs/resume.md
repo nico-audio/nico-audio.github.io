@@ -4,6 +4,17 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+<style>
+  .linkedin-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .linkedin-link img {
+    margin-right: 5px;
+  }
+</style>
 
 
 ### TECHNOLOGIES AND TOOLS
@@ -72,4 +83,19 @@ Music Production – Dancemusic Master (2009)\
 Dancefloor DJ Academy – Lisbon, PT
 
 
-[Linkedin](https://www.linkedin.com/in/nicvieira-audio/)
+<style>
+  .linkedin-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .linkedin-link img {
+    margin-right: 5px;
+  }
+</style>
+
+<a href="https://www.linkedin.com/in/nicvieira-audio/" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+  <img src="https://user-images.githubusercontent.com/110834120/249790058-0574e658-33ae-4467-9e4f-50d5a092d36f.png" alt="LinkedIn Icon" width="30" height="30">
+  <span>Connect with me on LinkedIn</span>
+</a>
