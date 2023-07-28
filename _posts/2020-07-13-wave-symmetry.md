@@ -4,6 +4,33 @@ author: nico
 date: 2020-07-13 10:50:00
 categories: [Pure Data]
 ---
+<style>
+/* Video container */
+.video-container {
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* Maintain aspect ratio (16:9) */
+  height: 0;
+  overflow: hidden;
+}
+
+/* Responsive video iframe */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .video-container {
+    padding-bottom: 75%; /* Adjust the aspect ratio for mobile */
+  }
+}
+</style>
+
 
 ### Introduction
 
@@ -42,7 +69,9 @@ _Fig.6 Cosine function waveform_
 As you can see, the transfer function determines your control over the shape and harmonic content of the waveform. Remember that the harmonics are what makes us differentiate between two different instruments playing the same pitch.
 
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/K55meFGz0Yo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/K55meFGz0Yo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Transforming the symmetry
 
@@ -55,7 +84,9 @@ We're using a non-linear transfer funcion - [cos~] - and adding an offset contro
 
 Let's take a look at the amount of control you can have over timbre with this technique.
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/K4JNFZS_74E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/K4JNFZS_74E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 You definitely don't have to know this to make electronic music, however, this kind of knowledge can save you a lot of time in expressing your ideas because it becomes easier to understand how to reach that sound you have in your head.
 

@@ -4,6 +4,33 @@ author: nico
 date: 2020-07-20 16:30:00
 categories: [Pure Data]
 ---
+<style>
+/* Video container */
+.video-container {
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* Maintain aspect ratio (16:9) */
+  height: 0;
+  overflow: hidden;
+}
+
+/* Responsive video iframe */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .video-container {
+    padding-bottom: 75%; /* Adjust the aspect ratio for mobile */
+  }
+}
+</style>
+
 
 ### What is it and how it works
 
@@ -28,8 +55,10 @@ You can use a microphone input to get that robot voice I initially told you abou
 ![ring-mic](https://raw.githubusercontent.com/nico-audio/nico-audio.github.io/main/_posts/img/RingModulation/Fig3_micinput.png){: width="508" height="456" }
 _Fig.3 - Using a microphone as input_
 
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/QRWfme9x4-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/QRWfme9x4-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 If the oscillators frequencies are harmonically related, ring modulation will produce harmonic partials. Let's change our patch a little bit by adding another [osc~] and creating that relation to see what happens.
 
@@ -53,8 +82,9 @@ What we have here are 4 partials:
 
 ### Video demonstration
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/iMHrhy161YA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iMHrhy161YA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 I encourage you to try ring modulation and see what kind of sounds you can produce just by using this effect, try using different waveshapes and see how you can produce complex spectra, like in the example below.
 

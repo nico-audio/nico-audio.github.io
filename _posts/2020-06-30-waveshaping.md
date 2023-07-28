@@ -5,6 +5,34 @@ date: 2020-06-30 15:45:00
 categories: [Pure Data]
 ---
 
+<style>
+/* Video container */
+.video-container {
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* Maintain aspect ratio (16:9) */
+  height: 0;
+  overflow: hidden;
+}
+
+/* Responsive video iframe */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .video-container {
+    padding-bottom: 75%; /* Adjust the aspect ratio for mobile */
+  }
+}
+</style>    
+
+
 Waveshaping is a distortion technique that allows us to modulate a signal amplitude, controlling the way that the amplifier processes the waveform by using a non-linear transfer function.
 
 An amplifier is used to increase the voltage, current, or power of a signal and amplifiers have a transfer function, which is basically a graph relating the input to the output of a signal. 
@@ -33,8 +61,9 @@ _Fig.3 Waveshaping vs linear_
 
 ### Video demonstration
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/q3vaxSWWWg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/q3vaxSWWWg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### References
 
