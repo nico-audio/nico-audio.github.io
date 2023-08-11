@@ -5,6 +5,33 @@ date: 2020-09-02 15:25:00
 categories: [Pure Data]
 ---
 
+<style>
+/* Video container */
+.video-container {
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* Maintain aspect ratio (16:9) */
+  height: 0;
+  overflow: hidden;
+}
+
+/* Responsive video iframe */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .video-container {
+    padding-bottom: 75%; /* Adjust the aspect ratio for mobile */
+  }
+}
+</style>
+
 ### Introduction
 
 Filters are a very powerful tool when it comes to building the character of your sound, they allow some frequencies to pass and attenuate others, depending on what kind of filter you're using, they can be subtle or completely modify your sound. There are many possible filter designs - a filter is an amplifier whose gain changes with frequency and that can be used in several ways. Think about it, a lot of effects we use are filter effects.
@@ -38,7 +65,9 @@ _Fig. 2 - Feedforward comb filter implementation in Pd_
 
 ### Feedforward comb filter demonstration
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/ui1oK012tnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ui1oK012tnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ![IR-feedforward](https://raw.githubusercontent.com/nico-audio/nico-audio.github.io/main/_posts/img/PdCombFilter/Fig3_feedforward-comb-invert.png){: width="650" height="448" }
 _Fig.3 - Impulse response of a non-recirculating (feedforward) comb filter_
@@ -61,7 +90,9 @@ _Fig. 6 - Feedback comb filter implementation in Pd_
 
 ### Feedback comb filter demonstration
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/CBkURqWqTFA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/CBkURqWqTFA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ![time-domain-net](https://raw.githubusercontent.com/nico-audio/nico-audio.github.io/main/_posts/img/PdCombFilter/Fig7_waveform-analysis-fbcomb-crop.png){: width="658" height="467" }
 _Fig.7 - Time domain behavior of the delay network_

@@ -5,6 +5,32 @@ date: 2020-08-19 13:25:00
 categories: [Pure Data]
 ---
 
+<style>
+/* Video container */
+.video-container {
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* Maintain aspect ratio (16:9) */
+  height: 0;
+  overflow: hidden;
+}
+
+/* Responsive video iframe */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .video-container {
+    padding-bottom: 75%; /* Adjust the aspect ratio for mobile */
+  }
+}
+</style>
 
 ### Introduction
 
@@ -19,8 +45,10 @@ _Fig.1 - Easter egg_
 
 ### Easter egg demo
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Gj6VqbLJr6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Gj6VqbLJr6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
 The main things I needed for this project, the way I interpreted it, were:
 
 1. a way to open my source file

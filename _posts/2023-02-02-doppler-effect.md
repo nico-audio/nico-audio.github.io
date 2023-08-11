@@ -5,6 +5,33 @@ date: 2023-02-02 10:42:00
 categories: [Pure Data, Unity]
 ---
 
+<style>
+/* Video container */
+.video-container {
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* Maintain aspect ratio (16:9) */
+  height: 0;
+  overflow: hidden;
+}
+
+/* Responsive video iframe */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .video-container {
+    padding-bottom: 75%; /* Adjust the aspect ratio for mobile */
+  }
+}
+</style>  
+
 ### Introduction
 
 I've used pd before to talk about other concepts in audio here. Now, I want to write about yet another fundamental concept: the Doppler Effect. This time I also want to show you how to apply this concept in Unity so if you're not really interested in the pd part, you can jump right into the [Unity section](https://nico-audio.github.io/posts/doppler-effect/#implementation-with-unity).
@@ -57,7 +84,9 @@ I've also added buttons to move close or move away from the listener. They're ba
 ![pd_buttons](https://raw.githubusercontent.com/nico-audio/nico-audio.github.io/main/_posts/img/DopplerEffect/7-pd_bangs.png) 
 _Fig. 7 - Buttons for control_
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/X8SD_jf_PII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/X8SD_jf_PII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Implementation with Unity
 
@@ -108,7 +137,9 @@ Now you can set the Doppler level for the audio source: in the audio source comp
 ![DopplerLevel](https://raw.githubusercontent.com/nico-audio/nico-audio.github.io/main/_posts/img/DopplerEffect/11-Unity_doppler_level.png)
 _Fig. 11 - Doppler level property_
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/-bPhVPQrG6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-bPhVPQrG6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 As a final example, I'll show you an implementation via script, which can be very useful depending on your context. We'll have to create a new script, which I'll name "DopplerEffect" and add it to the object that emits the sound. What this script will do is calculate the relative position and speed of the object emitting the sound with respect to the listener and use that information to adjust the pitch of the audio source.
 
@@ -174,7 +205,9 @@ void Update()
 } 
 ```
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/cUD6vHqMwLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cUD6vHqMwLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 When implementing the effect, tweak the parameters to see what works for your specific case but keep in mind to make it engaging while also serving the purpose of the game. If the intention is to enhance immersion and provide information, but the effect becomes too distracting, it will have a negative impact instead.
 
