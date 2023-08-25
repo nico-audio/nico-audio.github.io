@@ -105,6 +105,10 @@ _This showreel contains some of my work such as the sound design for the splash 
   <div class="grid-container">
     <div class="grid">
       <div class="grid-item">
+        <iframe src="https://www.youtube.com/embed/CJgiMFAX7Ds?si=gJP0K2Ii8JTIr98w"></iframe>
+        <div class="video-text"> Soundscaping in Unity using coroutines</div>
+      </div>
+      <div class="grid-item">
         <iframe src="https://www.youtube.com/embed/cUD6vHqMwLU"></iframe>
         <div class="video-text"> Demonstrating an implementation of the Doppler effect with custom parameters defined by a C# script in Unity <a href="https://nico-audio.github.io/posts/doppler-effect/">(Tutorial here)</a> </div>
       </div>
