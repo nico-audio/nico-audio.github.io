@@ -109,6 +109,10 @@ _This showreel contains some of my work such as the sound design for the splash 
         <div class="video-text"> Soundscaping in Unity using coroutines</div>
       </div>
       <div class="grid-item">
+        <iframe src="https://www.youtube.com/embed/k-9P_lPWnS4?si=0f9-506JbyNiIeod"></iframe>
+        <div class="video-text"> Dynamic system based on day/night cycle to control the ambient sound </div>
+      </div>
+      <div class="grid-item">
         <iframe src="https://www.youtube.com/embed/cUD6vHqMwLU"></iframe>
         <div class="video-text"> Demonstrating an implementation of the Doppler effect with custom parameters defined by a C# script in Unity <a href="https://nico-audio.github.io/posts/doppler-effect/">(Tutorial here)</a> </div>
       </div>
