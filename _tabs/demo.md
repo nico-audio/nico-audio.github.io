@@ -93,11 +93,11 @@ order: 1
 
 <div style="text-align: center;">
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mjOHrn_9Cf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Br38b2F57A?si=M_R5oNyyC3yYpgBR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </div>
 
-_This showreel contains some of my work such as the sound design for the splash screen in SGC - Short Games Collection #1 (Nerd Monkeys) and the magic sound effects in Grid Force - Mask of the Goddess (Playtra Games) together with redesigns for other titles  where I re-create an entire scene from scratch._
+_This showreel contains some of my work such as the sound design for the splash screen in SGC - Short Games Collection #1 (Nerd Monkeys) and the magic sound effects in Grid Force - Mask of the Goddess (Dreamnauts studios) together with redesigns where I re-create an entire scene from scratch._
 
 
 # TECHNICAL VIDEOS 
@@ -127,3 +127,14 @@ _This showreel contains some of my work such as the sound design for the splash 
     </div>
   </div>
 </div>
+
+
+# MORE SOUND DESIGN
+
+  <div class="video-gallery">
+    <div class="grid-container">
+      <div class="grid">
+        <div class="grid-item">
+          <iframe src="https://www.youtube.com/embed/ChXGSj4RTwc?si=IgqCskLpz-EszHaT"></iframe>
+          <div class="video-text"> Magic spells sound design for Grid Force - Mask of the Goddess </div>
+        </div>
