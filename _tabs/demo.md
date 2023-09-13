@@ -136,5 +136,9 @@ _This showreel contains some of my work such as the sound design for the splash 
       <div class="grid">
         <div class="grid-item">
           <iframe src="https://www.youtube.com/embed/ChXGSj4RTwc?si=IgqCskLpz-EszHaT"></iframe>
-          <div class="video-text"> Magic spells sound design for Grid Force - Mask of the Goddess </div>
+          <div class="video-text"> <b>Magic spells</b> sound design for Grid Force - Mask of the Goddess </div>
         </div>
+    <div class="grid-item">
+          <iframe src="https://www.youtube.com/embed/ccJ3gb8eM8s?si=L1RKC4NuNpz9HgDA"></iframe>
+          <div class="video-text"> <b>Mining game</b> sound design made for MTS (Airwiggles sound design challenge). Dig Dig Boom is a strategic mining adventure by SteinMakesGames where puzzles meet explosives. <a href="https://store.steampowered.com/app/2026040/Dig_Dig_Boom/">(Steam)</a> </div>
+        </div>        
