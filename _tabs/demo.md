@@ -105,23 +105,23 @@ _This showreel contains some of my work such as the sound design for the splash 
   <div class="grid-container">
     <div class="grid">
       <div class="grid-item">
-        <iframe src="https://www.youtube.com/embed/2PX0yoSkC6Q?si=arRtRas4RZE1M4mP"></iframe>
+        <iframe src="https://www.youtube.com/embed/2PX0yoSkC6Q?si=arRtRas4RZE1M4mP" frameborder="0" allowfullscreen></iframe>
         <div class="video-text"> Soundscaping in Unity using coroutines</div>
       </div>
       <div class="grid-item">
-        <iframe src="https://www.youtube.com/embed/sBPl59akKL8?si=622Jl9wQW-QoCw8W"></iframe>
+        <iframe src="https://www.youtube.com/embed/sBPl59akKL8?si=622Jl9wQW-QoCw8W" frameborder="0" allowfullscreen></iframe>
         <div class="video-text"> Wwise - Dynamic system based on day/night cycle to control the ambient sound </div>
       </div>
       <div class="grid-item">
-        <iframe src="https://www.youtube.com/embed/cUD6vHqMwLU"></iframe>
-        <div class="video-text"> Demonstrating an implementation of the Doppler effect with custom parameters defined by a C# script in Unity <a href="https://nico-audio.github.io/posts/doppler-effect/">(Tutorial here)</a> </div>
+        <iframe src="https://www.youtube.com/embed/cUD6vHqMwLU" frameborder="0" allowfullscreen></iframe>
+        <div class="video-text"> Demonstrating an implementation of the Doppler effect with custom parameters defined by a C# script in Unity <a href="https://nico-audio.github.io/posts/doppler-effect/" frameborder="0" allowfullscreen>(Tutorial here)</a> </div>
       </div>
       <div class="grid-item">
-        <iframe src="https://www.youtube.com/embed/X8SD_jf_PII"></iframe>
+        <iframe src="https://www.youtube.com/embed/X8SD_jf_PII" frameborder="0" allowfullscreen></iframe>
         <div class="video-text"> An implementation of the Doppler effect with Pure data <a href="https://nico-audio.github.io/posts/doppler-effect/">(Tutorial here)</a></div>
       </div>
       <div class="grid-item">
-        <iframe src="https://www.youtube.com/embed/Gj6VqbLJr6I"></iframe>
+        <iframe src="https://www.youtube.com/embed/Gj6VqbLJr6I" frameborder="0" allowfullscreen></iframe>
         <div class="video-text"> A sound design tool created with Pure Data <a href="https://nico-audio.github.io/posts/easteregg/">(Tutorial here)</a></div>
       </div>
     </div>
@@ -135,10 +135,10 @@ _This showreel contains some of my work such as the sound design for the splash 
     <div class="grid-container">
       <div class="grid">
         <div class="grid-item">
-          <iframe src="https://www.youtube.com/embed/ChXGSj4RTwc?si=IgqCskLpz-EszHaT"></iframe>
+          <iframe src="https://www.youtube.com/embed/ChXGSj4RTwc?si=IgqCskLpz-EszHaT" frameborder="0" allowfullscreen></iframe>
           <div class="video-text"> <b>Magic spells</b> sound design for Grid Force - Mask of the Goddess </div>
         </div>
     <div class="grid-item">
-          <iframe src="https://www.youtube.com/embed/ccJ3gb8eM8s?si=L1RKC4NuNpz9HgDA"></iframe>
-          <div class="video-text"> <b>Mining game</b> sound design made for MTS (Airwiggles sound design challenge). Dig Dig Boom is a strategic mining adventure by SteinMakesGames where puzzles meet explosives. <a href="https://store.steampowered.com/app/2026040/Dig_Dig_Boom/">(Steam)</a> </div>
+          <iframe src="https://www.youtube.com/embed/ccJ3gb8eM8s?si=L1RKC4NuNpz9HgDA" frameborder="0" allowfullscreen></iframe>
+          <div class="video-text"> <b>Mining game</b> sound redesign made for MTS (Airwiggles sound design challenge). Dig Dig Boom is a strategic mining adventure by SteinMakesGames where puzzles meet explosives. <a href="https://store.steampowered.com/app/2026040/Dig_Dig_Boom/">(Steam)</a> </div>
         </div>        
