@@ -208,7 +208,7 @@ void Update()
 <div class="video-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/cUD6vHqMwLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
+<br>
 When implementing the effect, tweak the parameters to see what works for your specific case but keep in mind to make it engaging while also serving the purpose of the game. If the intention is to enhance immersion and provide information, but the effect becomes too distracting, it will have a negative impact instead.
 
 ### Final note
