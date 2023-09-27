@@ -111,14 +111,12 @@ public class MoveObject : MonoBehaviour
     [SerializeField] Vector3 posTrans= new Vector3 (0f, 0f, 0f);
     [SerializeField] float speed = 1f;
  
-     void Start() 
-     {
+     void Start(){
         pos1 = transform.position;
         pos2 = transform.position + posTrans;
      }
  
-     void Update () 
-     {
+     void Update(){
         transform.position = Vector3.Lerp(pos1, pos2, Mathf.PingPong(Time.time*speed, 2f));
      }
 }
@@ -171,8 +169,7 @@ public class DopplerEffect : MonoBehaviour
     [SerializeField] float maxPitch = 2f;
     MoveObject moveObject;
 
-    void Awake() 
-    {
+    void Awake(){
         moveObject = FindObjectOfType<MoveObject>();    
     }
 }    
@@ -180,8 +177,7 @@ public class DopplerEffect : MonoBehaviour
 In the update method we'll first calculate distance and position: subtracting the listener's position from the audio source's position to get the relative position and using the magnitude property to get the length.
 
 ```c#
-void Update()
-{
+void Update(){
     //distance and position
     Vector3 relativePos = moveObject.transform.position - listener.position;
     float distance = relativePos.magnitude;
@@ -191,8 +187,7 @@ void Update()
 Then we'll need to access the object speed to calculate its relative speed and use that relative speed to calculate the doppler effect and cobtrol the audio source's pitch property.
 
 ```c#
-void Update()
-{
+void Update(){
     //distance and position
     Vector3 relativePos = moveObject.transform.position - listener.position;
     float distance = relativePos.magnitude;
