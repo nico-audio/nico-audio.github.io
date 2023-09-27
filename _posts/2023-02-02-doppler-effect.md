@@ -24,18 +24,6 @@ categories: [Pure Data, Unity]
   height: 100%;
 }
 
-/* Styling for code blocks */
-pre {
-  background-color: #f4f4f4;
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.4;
-  max-width: 100%; /* Set the maximum width to 100% of the container */
-  overflow-x: auto; /* Enable horizontal scrolling for long lines */
-  white-space: pre-wrap; /* Wrap lines to fit the container */
-}
-
 /* Mobile responsiveness */
 @media (max-width: 767px) {
   .video-container {
