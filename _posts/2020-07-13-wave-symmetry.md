@@ -80,7 +80,7 @@ Now I will show you how to add some extra control to your patch, because you can
 ![offset](https://raw.githubusercontent.com/nico-audio/nico-audio.github.io/main/_posts/img/WfSymmetry/Fig7_offset-control-patch.JPG){: width="901" height="484" }
 _Fig.7 Offset control_
 
-We're using a non-linear transfer funcion - [cos~] - and adding an offset control, so you will basically have an even/odd control and transform the symmetry of the waveform, because you are changing the point from where you start reading.
+We're using a non-linear transfer function - [cos~] - and adding an offset control, so you will basically have an even/odd control and transform the symmetry of the waveform, because you are changing the point from where you start reading.
 
 Let's take a look at the amount of control you can have over timbre with this technique.
 
