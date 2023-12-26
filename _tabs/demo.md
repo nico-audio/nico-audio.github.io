@@ -97,7 +97,7 @@ order: 1
   </div>
 </div>
 
-_This showreel contains some of my work such as the sound design for the splash screen in SGC - Short Games Collection #1 (Nerd Monkeys) and the magic sound effects in Grid Force - Mask of the Goddess (Dreamnauts studios) together with redesigns where I re-create an entire scene from scratch._
+_This showreel contains some of my work such as the sound design for the splash screen in **SGC - Short Games Collection #1 (Nerd Monkeys)** and the magic sound effects in **Grid Force - Mask of the Goddess (Dreamnauts studios)** together with redesigns where I re-create an entire scene from scratch._
 
 
 # TECHNICAL VIDEOS 
@@ -106,23 +106,23 @@ _This showreel contains some of my work such as the sound design for the splash 
     <div class="grid">
       <div class="grid-item">
         <iframe src="https://www.youtube.com/embed/2PX0yoSkC6Q?si=arRtRas4RZE1M4mP" frameborder="0" allowfullscreen></iframe>
-        <div class="video-text"> Soundscaping in Unity using coroutines</div>
+        <div class="video-text"> Soundscaping in <b>Unity</b> using coroutines</div>
       </div>
       <div class="grid-item">
         <iframe src="https://www.youtube.com/embed/sBPl59akKL8?si=622Jl9wQW-QoCw8W" frameborder="0" allowfullscreen></iframe>
-        <div class="video-text"> Wwise - Dynamic system based on day/night cycle to control the ambient sound </div>
+        <div class="video-text"> <b>Wwise</b> - Dynamic system based on day/night cycle to control the ambient sound </div>
       </div>
       <div class="grid-item">
         <iframe src="https://www.youtube.com/embed/cUD6vHqMwLU" frameborder="0" allowfullscreen></iframe>
-        <div class="video-text"> Demonstrating an implementation of the Doppler effect with custom parameters defined by a C# script in Unity <a href="https://nico-audio.github.io/posts/doppler-effect/" frameborder="0" allowfullscreen>(Tutorial here)</a> </div>
+        <div class="video-text"> Demonstrating an implementation of the Doppler effect with custom parameters defined by a <b>C# script in Unity</b> <a href="https://nico-audio.github.io/posts/doppler-effect/" frameborder="0" allowfullscreen>(Tutorial here)</a> </div>
       </div>
       <div class="grid-item">
         <iframe src="https://www.youtube.com/embed/X8SD_jf_PII" frameborder="0" allowfullscreen></iframe>
-        <div class="video-text"> An implementation of the Doppler effect with Pure data <a href="https://nico-audio.github.io/posts/doppler-effect/">(Tutorial here)</a></div>
+        <div class="video-text"> An implementation of the Doppler effect with <b>Pure data</b> <a href="https://nico-audio.github.io/posts/doppler-effect/">(Tutorial here)</a></div>
       </div>
       <div class="grid-item">
         <iframe src="https://www.youtube.com/embed/Gj6VqbLJr6I" frameborder="0" allowfullscreen></iframe>
-        <div class="video-text"> A sound design tool created with Pure Data <a href="https://nico-audio.github.io/posts/easteregg/">(Tutorial here)</a></div>
+        <div class="video-text"> A sound design tool created with <b>Pure Data</b> <a href="https://nico-audio.github.io/posts/easteregg/">(Tutorial here)</a></div>
       </div>
     </div>
   </div>
