@@ -25,15 +25,6 @@ order: 4
   }
 </style>
 
-
-<h1 style="text-align: center;">PROGRAMMING LANGUAGES</h1>
-
-------------
-Unreal Blueprints\
-Pure Data\
-C#\
-Processing
-
 <h1 style="text-align: center;">EDUCATION</h1>
 
 ------------
@@ -44,6 +35,17 @@ Salvador, BA – Brazil
 **Wwise Course**\
 School of Video Game Audio | 2020
 
+
+<h1 style="text-align: center;">PROGRAMMING / SOFTWARE SKILLS</h1>
+
+------------
+Wwise\
+Unreal Engine\
+Unity Engine\
+Reaper\
+Ableton Live\
+Pure Data\
+C#
 
 <h1 style="text-align: center;">LANGUAGE SKILLS</h1>
 
