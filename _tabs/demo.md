@@ -93,11 +93,11 @@ order: 1
 
 <div style="text-align: center;">
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Br38b2F57A?si=M_R5oNyyC3yYpgBR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mxU9HAaqYpw?si=4wRi7-ukWZUIvJ3T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </div>
 
-_This showreel contains some of my work such as the sound design for the splash screen in **SGC - Short Games Collection #1 (Nerd Monkeys)** and the magic sound effects in **Grid Force - Mask of the Goddess (Dreamnauts studios)** together with redesigns where I re-create an entire scene from scratch._
+_This showreel contains some of my work such as the magic sound effects in **Grid Force - Mask of the Goddess (Dreamnauts studios)** and redesigns where I re-create an entire scene from scratch._
 
 
 # TECHNICAL VIDEOS 
@@ -135,18 +135,26 @@ _This showreel contains some of my work such as the sound design for the splash 
     <div class="grid-container">
       <div class="grid">
         <div class="grid-item">
-          <iframe src="https://www.youtube.com/embed/isoftWjr6pU?si=qzLwu0cIw40OhgKe" frameborder="0" allowfullscreen></iframe>
-          <div class="video-text"> <b>Magic spells</b> sound redesign for It takes two by Hazelight Studios</div>
+          <iframe src="https://www.youtube.com/embed/XF6fan1vNds?si=lK7sR6MBkf1lZALV" frameborder="0" allowfullscreen></iframe>
+          <div class="video-text"> <b>Splash Screen</b> sound design for Short Games Collection #1 (Nerd Monkeys) </div>
         </div>
         <div class="grid-item">
           <iframe src="https://www.youtube.com/embed/ChXGSj4RTwc?si=IgqCskLpz-EszHaT" frameborder="0" allowfullscreen></iframe>
           <div class="video-text"> <b>Magic spells</b> sound design for Grid Force - Mask of the Goddess </div>
         </div>
         <div class="grid-item">
-          <iframe src="https://www.youtube.com/embed/_5OLb5FeOJE?si=aXbYVjx_tn4-sL-F" frameborder="0" allowfullscreen></iframe>
-          <div class="video-text"> <b>Monster attacks</b> sound redesign made for MTS (Airwiggles sound design challenge). Elements is 3rd-person open-world adventure RPG about two siblings fulfilling their destiny. <a href="https://store.steampowered.com/app/1468110/Elements/">(Steam)</a> </div>
+          <iframe src="https://www.youtube.com/embed/isoftWjr6pU?si=qzLwu0cIw40OhgKe" frameborder="0" allowfullscreen></iframe>
+          <div class="video-text"> <b>Magic spells</b> sound redesign for It takes two by Hazelight Studios</div>
         </div>
         <div class="grid-item">
-          <iframe src="https://www.youtube.com/embed/ccJ3gb8eM8s?si=L1RKC4NuNpz9HgDA" frameborder="0" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/_5OLb5FeOJE?si=aXbYVjx_tn4-sL-F" frameborder="0" allowfullscreen></iframe>
+          <div class="video-text"> <b>Monster attacks</b> sound redesign made for MTS (Airwiggles sound design challenge). Elements is 3rd-person open-world adventure RPG about two siblings fulfilling their destiny. <a href="https://store.steampowered.com/app/1468110/Elements/">(Steam)</a></div>
+        </div>
+        <div class="grid-item">
+          <iframe src="https://www.youtube.com/embed/ShWSV1enQIc?si=Zg5zMi88NokrHmUS" frameborder="0" allowfullscreen></iframe>
+          <div class="video-text"> <b>Machinery</b> sound redesign made for MTS (Airwiggles sound design challenge).</div>
+        </div>
+        <div class="grid-item">
+          <iframe src="https://www.youtube.com/embed/ccJ3gb8eM8s?si=XXaGemddxMUIf_Lh" frameborder="0" allowfullscreen></iframe>
           <div class="video-text"> <b>Mining game</b> sound redesign made for MTS (Airwiggles sound design challenge). Dig Dig Boom is a strategic mining adventure by SteinMakesGames where puzzles meet explosives. <a href="https://store.steampowered.com/app/2026040/Dig_Dig_Boom/">(Steam)</a> </div>
-        </div>        
+        </div>          
