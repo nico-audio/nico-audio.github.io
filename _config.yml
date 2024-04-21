@@ -82,7 +82,7 @@ theme_mode: dark
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://pbs.twimg.com/profile_images/1407501319502544897/N-nNzh2E_400x400.jpg
+avatar: 'assets/img/logo_alpha_nico.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
