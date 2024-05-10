@@ -53,7 +53,7 @@ C#
 Portuguese (Native)\
 English (Proficient)\
 Spanish (Intermediate)\
-Catalan (Basic)
+Catalan (Intermediate)
 
 
 <h1 style="text-align: center;">CERTIFICATIONS AND TRAINING</h1>
