@@ -93,11 +93,11 @@ order: 1
 
 <div style="text-align: center;">
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zVsYqTe9zpA?si=k68RWOTKNx5gag-L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zy9apla4ko4?si=JM6dMMV3uD0z6Yx3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </div>
 
-_This showreel contains some of my work such as the magic sound effects in **Grid Force - Mask of the Goddess (Dreamnauts studios)** and redesigns where I re-create an entire scene from scratch._
+_This showreel contains some of my work such as the magic sound effects in **Grid Force - Mask of the Goddess (Dreamnauts studios)** and the splash screen for **SGC - Short Games Collection #1 (Nerd Monkeys)**  and redesigns where I re-create an entire scene from scratch._
 
 
 # TECHNICAL VIDEOS 
