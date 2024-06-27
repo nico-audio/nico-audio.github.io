@@ -36,7 +36,7 @@ categories: [Pure Data]
 
 EXTERMINATE! If you like Doctor Who, you've heard this before. I'm going to talk about the effect behind a Dalek's voice: ring modulation, also known as balanced modulation. Ring modulation is a signal processing function, a type of amplitude modulation (AM) that takes its name from the shape formed by the diodes on its analog circuit implementation. It was originally used for analog telephony.
 
-![ring-modulator](_posts/img/RingModulation/Fig1_Ring_Modulator.png){: width="567" height="322" }
+![ring-modulator](https://raw.githubusercontent.com/nico-audio/nico-audio.github.io/main/_posts/img/RingModulation/Fig1_Ring_Modulator.png){: width="567" height="322" }
 _Fig.1 Ring modulator schematic (CC BY-SA 3.0 via Wikimedia Commons)_
 
 ![daleks](https://raw.githubusercontent.com/nico-audio/nico-audio.github.io/main/_posts/img/RingModulation/Daleks_tumblr_mcyszapmEg1rucjjm.gif){: width="500" height="288" }
