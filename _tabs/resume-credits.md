@@ -8,7 +8,10 @@ order: 4
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Carousel with Previews, Arrows, and Captions</title>
+    <title>Resume / Credits</title>
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Resume / Credits" />
+    <meta property="og:image" content="https://github.com/nico-audio/nico-audio.github.io/blob/aa336067118cda3caeba1e1d3f55abff82c0e1d7/assets/img/logo_alpha_nico.png" />
     <style>
         body {
             text-align: left; /* Center-aligns the title */
