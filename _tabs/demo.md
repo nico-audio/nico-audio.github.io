@@ -148,7 +148,7 @@ _This showreel contains some of my work such as the magic sound effects in **Gri
         </div>
         <div class="grid-item">
           <iframe src="https://www.youtube.com/embed/_5OLb5FeOJE?si=aXbYVjx_tn4-sL-F" frameborder="0" allowfullscreen></iframe>
-          <div class="video-text"> <b>Monster attacks</b> sound redesign made for MTS (Airwiggles sound design challenge). Elements is 3rd-person open-world adventure RPG about two siblings fulfilling their destiny. <a href="https://store.steampowered.com/app/1468110/Elements/">(Steam)</a></div>
+          <div class="video-text"> <b>Monster attacks</b> sound redesign made for MTS (Airwiggles sound design challenge). Elements is 3rd-person open-world adventure RPG about two siblings fulfilling their destiny. <a href="https://store.steampowered.com/app/1468110/Elements/" target="_blank">(Steam)</a></div>
         </div>
         <div class="grid-item">
           <iframe src="https://www.youtube.com/embed/ShWSV1enQIc?si=Zg5zMi88NokrHmUS" frameborder="0" allowfullscreen></iframe>
@@ -156,5 +156,5 @@ _This showreel contains some of my work such as the magic sound effects in **Gri
         </div>
         <div class="grid-item">
           <iframe src="https://www.youtube.com/embed/ccJ3gb8eM8s?si=XXaGemddxMUIf_Lh" frameborder="0" allowfullscreen></iframe>
-          <div class="video-text"> <b>Mining game</b> sound redesign made for MTS (Airwiggles sound design challenge). Dig Dig Boom is a strategic mining adventure by SteinMakesGames where puzzles meet explosives. <a href="https://store.steampowered.com/app/2026040/Dig_Dig_Boom/">(Steam)</a> </div>
+          <div class="video-text"> <b>Mining game</b> sound redesign made for MTS (Airwiggles sound design challenge). Dig Dig Boom is a strategic mining adventure by SteinMakesGames where puzzles meet explosives. <a href="https://store.steampowered.com/app/2026040/Dig_Dig_Boom/" target="_blank">(Steam)</a> </div>
         </div>          
