@@ -11,7 +11,9 @@ order: 4
     <title>Resume / Credits</title>
     <!-- Open Graph meta tags -->
     <meta property="og:title" content="Resume / Credits" />
+    <meta property="og:description" content="Nico's portfolio" />
     <meta property="og:image" content="https://github.com/nico-audio/nico-audio.github.io/blob/aa336067118cda3caeba1e1d3f55abff82c0e1d7/assets/img/logo_alpha_nico.png" />
+    <meta property="og:url" content="https://nico-audio.github.io/resume-credits/" />
     <style>
         body {
             text-align: left; /* Center-aligns the title */
