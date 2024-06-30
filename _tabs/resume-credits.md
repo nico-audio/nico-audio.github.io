@@ -179,12 +179,12 @@ Wwise, Unreal Engine, Unity Engine, Reaper, Ableton Live, Pure Data, C#, Unreal 
 <h2 style="text-align: left;">CERTIFICATIONS AND TRAINING</h2>
 
 ------------
-- 2023 - **Audiokinetic, Wwise 251 - Performance Optimization & Mobile Considerations**
+- 2023 - **Audiokinetic - Wwise 251 - Performance Optimization & Mobile Considerations**
 - 2022 - **Audiokinetic - Wwise 201 - Interactive Music**
 - 2022 - **Gamedev.tv - Complete C# Unity Game Developer 2D Online Course**
 - 2022 - **Gamedev.tv - Get GIT Smart Course**
 - 2021 - **Audiokinetic - Wwise 101**
-- 2021 - **Unreal Engine Blueprint Game Developer**
+- 2021 - **Gamedev.tv - Unreal Engine Blueprint Game Developer**
 - 2016 - **Berklee College of Music, Coursera - Developing Your Musicianship**
 - 2014 - **ETS - TOEFL ITP**
 - 2009 - **Dancefloor DJ Academy - Music Production - Dancemusic Master**
