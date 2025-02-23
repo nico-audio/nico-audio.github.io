@@ -1,19 +1,21 @@
 #  The contact options.
-
 -
   type: github
   icon: 'fab fa-github'
--
-  type: twitter
-  icon: 'fab fa-twitter'
 -
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
 -
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
+  type: linkedin
+  icon: 'fab fa-linkedin'
+  url:  'https://www.linkedin.com/in/nicvieira-audio/'                  
+-
+  type: spectrum-libraries
+  icon: 'fas fa-globe'
+  url:  'https://spectrumlibraries.com/'                  
+-
+
 
 # Uncomment and complete the url below to enable more contact options
 # -
@@ -28,3 +30,11 @@
 #   type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
+# -
+#  type: rss
+#  icon: 'fas fa-rss'
+#  noblank: true
+# -
+#  type: twitter
+#  icon: 'fab fa-twitter'
+# -
