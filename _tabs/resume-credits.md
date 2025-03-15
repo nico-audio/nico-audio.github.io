@@ -39,8 +39,8 @@ order: 4
         }
         .carousel-main img {
             width: 100%;
-            height: auto;
-            display: none;
+            max-height: 400px;
+            object-fit: cover;
         }
         .carousel-main img.active {
             display: block;
@@ -69,8 +69,9 @@ order: 4
             cursor: pointer;
             position: absolute;
             top: 50%;
-            width: auto;
-            padding: 16px;
+            width: 50px;
+            height: 50px;
+            padding: 10px;
             margin-top: -22px;
             color: white;
             font-weight: bold;
@@ -201,5 +202,4 @@ Wwise, Unreal Engine, Unity Engine, Reaper, Ableton Live, Pure Data, C#, Unreal 
 
 <a href="https://www.linkedin.com/in/nicvieira-audio/" target="_blank" rel="noopener noreferrer" class="linkedin-link">
   <img src="https://user-images.githubusercontent.com/110834120/249790058-0574e658-33ae-4467-9e4f-50d5a092d36f.png" alt="LinkedIn Icon" width="30" height="30">
-  <span>Connect with me on LinkedIn</span>
 </a>
