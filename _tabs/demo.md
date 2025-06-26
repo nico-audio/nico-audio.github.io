@@ -105,6 +105,10 @@ _This showreel contains some of my work such as the magic sound effects in **Gri
   <div class="grid-container">
     <div class="grid">
       <div class="grid-item">
+        <iframe src="https://www.youtube.com/embed/hTh3U1SofZo?si=ekdQWQ3-aKCitOq7er " frameborder="0" allowfullscreen></iframe>
+        <div class="video-text"> <b>UE5</b> - Dynamic footstep system implementation using Metasounds</div>
+      </div>
+      <div class="grid-item">
         <iframe src="https://www.youtube.com/embed/uZTqMzPiV8M?si=Yn2pUWRg1ahXKD-f" frameborder="0" allowfullscreen></iframe>
         <div class="video-text"> Soundscaping in <b>Unity</b> using coroutines</div>
       </div>
