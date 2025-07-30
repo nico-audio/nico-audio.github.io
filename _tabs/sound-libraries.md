@@ -187,7 +187,7 @@ order: 5
   <div class="grid-container">
     <div class="grid">
       <div class="grid-item">
-        <img src="/assets/img/Skateboard_thumbnail.png" alt="Skateboard Sound Library" style="max-width: 100%; height: auto; border-radius: 8px;" width="300" height="300"/>
+        <img src="assets/img/Skateboard_thumbnail.png" alt="Skateboard Sound Library" style="max-width: 100%; height: auto; border-radius: 8px;" width="300" height="300"/>
         <div class="product-text">
           <h4>SKATEBOARD</h4>
           <p>96kHz, 24 bit, 100% royalty-free sound library recorded across different skateparks. Includes UCS compliant metadata.</p>
