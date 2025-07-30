@@ -175,7 +175,7 @@ order: 5
 
 <!-- Logo -->
 <div class="logo-container">
-  <img src="/assets/img/Spectrum-logo.png" alt="Spectrum Logo" class="logo">
+  <img src="assets/img/Spectrum-logo.png" alt="Spectrum Logo" class="logo">
 </div>
 
 <!-- Intro text -->
@@ -198,7 +198,7 @@ order: 5
         </div>
       </div>
       <div class="grid-item">
-        <img src="/assets/img/Interfaces_thumbnail.png" alt="Interfaces Sound Library" style="max-width: 100%; height: auto; border-radius: 8px;" width="300" height="300"/>
+        <img src="assets/img/Interfaces_thumbnail.png" alt="Interfaces Sound Library" style="max-width: 100%; height: auto; border-radius: 8px;" width="300" height="300"/>
         <div class="product-text">
           <h4>INTERFACES</h4>
           <p>96kHz, 24 bit, 100% royalty-free sound library featuring designed user interface sounds. Includes UCS compliant metadata.</p>
