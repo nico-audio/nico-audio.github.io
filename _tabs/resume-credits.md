@@ -92,6 +92,29 @@ order: 4
             text-align: center;
             margin-top: 20px;
         }
+        .skills-list {
+            margin: 0;
+            padding-left: 0;
+            list-style-position: inside;
+            column-count: 3;
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+        }
+        .skills-list li {
+            -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+            page-break-inside: avoid; /* Firefox */
+            break-inside: avoid; /* IE 10+ */
+        }
+        @media (max-width: 768px) {
+            .skills-list {
+                column-count: 2;
+            }
+        }
+        @media (max-width: 576px) {
+            .skills-list {
+                column-count: 1;
+            }
+        }
     </style>
 <!-- CREDITS -->
 </head>
@@ -167,15 +190,27 @@ order: 4
 
 ------------
 
-- **Portuguese** (Native)
-- **English** (Proficient)
-- **Spanish** (Intermediate)
-- **Catalan** (Intermediate)
+<ul class="skills-list">
+    <li><strong>Portuguese</strong> (Native)</li>
+    <li><strong>English</strong> (Proficient)</li>
+    <li><strong>Spanish</strong> (Intermediate)</li>
+    <li><strong>Catalan</strong> (Intermediate)</li>
+</ul>
 
 <h2 style="text-align: left;">PROGRAMMING / SOFTWARE SKILLS</h2>
 
 ------------
-Wwise, Unreal Engine, Unity Engine, Reaper, Ableton Live, Pure Data, C#, Unreal Blueprints
+<ul class="skills-list">
+    <li>Wwise</li>
+    <li>Unreal Engine</li>
+    <li>Unity Engine</li>
+    <li>C++</li>
+    <li>C#</li>
+    <li>Pure Data</li>
+    <li>Unreal Blueprints</li>
+    <li>Reaper</li>
+    <li>Ableton Live</li>
+</ul>
 
 <h2 style="text-align: left;">CERTIFICATIONS AND TRAINING</h2>
 
