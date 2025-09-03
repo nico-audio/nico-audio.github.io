@@ -215,6 +215,7 @@ order: 4
 <h2 style="text-align: left;">CERTIFICATIONS AND TRAINING</h2>
 
 ------------
+- 2025 - **Gamedev.tv - C++ Fundamentals**
 - 2023 - **Audiokinetic - Wwise 251 - Performance Optimization & Mobile Considerations**
 - 2022 - **Audiokinetic - Wwise 201 - Interactive Music**
 - 2022 - **Gamedev.tv - Complete C# Unity Game Developer 2D Online Course**

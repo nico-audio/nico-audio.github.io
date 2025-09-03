@@ -208,6 +208,17 @@ order: 5
           <a href="https://spectrumlibraries.com/interfaces" target="_blank" class="learn-more-button">Learn More</a>
         </div>
       </div>
+      <div class="grid-item">
+        <img src="assets/img/ShredFX_thumbnail.png" alt="ShredFX" style="max-width: 100%; height: auto; border-radius: 8px;" width="300" height="300"/>
+        <div class="product-text">
+          <h4>SHRED FX</h4>
+          <p>96kHz, 24 bit, 100% royalty-free sound library featuring cloth destruction sounds. Includes UCS compliant metadata.</p>
+        </div>
+        <div class="purchase-button">
+          <a class="gumroad-button" href="https://spectrumlibraries.gumroad.com/l/shredfx">FREE on</a>
+          <a href="https://spectrumlibraries.com/shredfx" target="_blank" class="learn-more-button">Learn More</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
