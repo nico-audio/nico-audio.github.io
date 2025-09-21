@@ -2,7 +2,7 @@
 #layout: tags
 title: Music
 icon: fas fa-tag
-order: 3
+order: 5
 ---
 Here you can find some older musical projects from 2009 to 2019 before I started working in game development.
 

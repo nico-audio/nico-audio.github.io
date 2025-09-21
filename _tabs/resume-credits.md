@@ -1,7 +1,7 @@
 ---
 title: RESUME / CREDITS
 icon: fas fa-info-circle
-order: 4
+order: 6
 ---
 
 <html lang="en">
@@ -204,10 +204,11 @@ order: 4
     <li>Wwise</li>
     <li>Unreal Engine</li>
     <li>Unity Engine</li>
-    <li>C++</li>
     <li>C#</li>
+    <li>C++</li>
     <li>Pure Data</li>
     <li>Unreal Blueprints</li>
+    <li>JUCE</li>
     <li>Reaper</li>
     <li>Ableton Live</li>
 </ul>
