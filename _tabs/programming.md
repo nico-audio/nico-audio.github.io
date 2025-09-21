@@ -40,9 +40,14 @@ Here are some of the projects and tools I've worked on. Some of them are part of
           <span class="badge badge-secondary">Sound Design</span>
           <span class="badge badge-secondary">Tooling</span>
         </div>
-        <a href="https://github.com/nico-audio/pd-patches/tree/master/easter-egg" target="_blank" rel="noopener" aria-label="github" class="text-muted">
-          <i class="fab fa-github fa-lg"></i>
-        </a>
+        <div>
+          <a href="https://www.youtube.com/watch?v=Gj6VqbLJr6I" target="_blank" rel="noopener" aria-label="youtube" class="text-muted mr-2">
+            <i class="fab fa-youtube fa-lg"></i>
+          </a>
+          <a href="https://github.com/nico-audio/pd-patches/tree/master/easter-egg" target="_blank" rel="noopener" aria-label="github" class="text-muted">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -65,9 +70,14 @@ Here are some of the projects and tools I've worked on. Some of them are part of
           <span class="badge badge-secondary">Game Audio</span>
           <span class="badge badge-secondary">Pure Data</span>
         </div>
-        <a href="https://github.com/nico-audio/pd-patches" target="_blank" rel="noopener" aria-label="github" class="text-muted">
-          <i class="fab fa-github fa-lg"></i>
-        </a>
+        <div>
+          <a href="https://www.youtube.com/watch?v=cUD6vHqMwLU" target="_blank" rel="noopener" aria-label="youtube" class="text-muted mr-2">
+            <i class="fab fa-youtube fa-lg"></i>
+          </a>
+          <a href="https://github.com/nico-audio/pd-patches" target="_blank" rel="noopener" aria-label="github" class="text-muted">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>
