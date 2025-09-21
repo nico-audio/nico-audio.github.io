@@ -26,7 +26,7 @@ Here are some of the projects and tools I've worked on. Some of them are part of
   <div class="col-lg-6 mb-4">
     <div class="card h-100" style="background-color: #313134;">
       <a href="/posts/easteregg/">
-        <img class="card-img-top" src="_posts/img/EasterEgg/Fig1_EasterEgg_patch.png" alt="Easter Egg Sound Design Tool">
+        <img class="card-img-top" src="assets/img/Post_EasterEgg/Fig1_EasterEgg_patch.png" alt="Easter Egg Sound Design Tool">
       </a>
       <div class="card-body">
         <h4 class="card-title">
@@ -50,7 +50,7 @@ Here are some of the projects and tools I've worked on. Some of them are part of
   <div class="col-lg-6 mb-4">
     <div class="card h-100" style="background-color: #313134;">
       <a href="/posts/doppler-effect/">
-        <img class="card-img-top" src="_posts/img/DopplerEffect/doppler-unity.gif" alt="The Doppler Effect in Unity">
+        <img class="card-img-top" src="assets/img/Post_DopplerEffect/doppler-unity.gif" alt="The Doppler Effect in Unity">
       </a>
       <div class="card-body">
         <h4 class="card-title">
@@ -78,7 +78,7 @@ Here are some of the projects and tools I've worked on. Some of them are part of
 
 ## Game Development
 
-<div class="row">
+<div class="row"> 
   <div class="col-lg-6 mb-4">
     <div class="card h-100" style="background-color: #313134;">
       <a href="https://github.com/nico-audio/GordonsIsland" target="_blank" rel="noopener">
