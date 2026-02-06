@@ -23,6 +23,30 @@ Here are some of the projects and tools I've worked on. Some of them are part of
 ## Audio programming
 
 <div class="row">
+    <div class="col-lg-6 mb-4">
+    <div class="card h-100" style="background-color: #313134;">
+      <a href="">
+        <img class="card-img-top" src="assets/img/LyreVST-preview.png" alt="Lyre VST Plugin">
+      </a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a href=""> [IN DEVELOPMENT] Lyre - Granular Delay VST Plugin</a>
+        </h4>
+        <p class="card-text">Lyre is a granular delay plugin built with JUCE framework. It's designed as a tool for creative, experimental sound design or music. At its core, Lyre is a ping-pong delay that incorporates features like negative feedback and integrated filters that you can use to produce new textures and explore the sonic possibilities of this kind of system.</p>
+      </div>
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <div>
+          <span class="badge badge-secondary">Work in Progress</span>
+          <span class="badge badge-secondary">C++</span>
+          <span class="badge badge-secondary">JUCE</span>
+          <span class="badge badge-secondary">VST Plugin</span>
+        </div>
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="col-lg-6 mb-4">
     <div class="card h-100" style="background-color: #313134;">
       <a href="/posts/easteregg/">
