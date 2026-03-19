@@ -42,6 +42,11 @@ Here are some of the projects and tools I've worked on. Some of them are part of
           <span class="badge badge-secondary">VST Plugin</span>
         </div>
         <div>
+          <a href="https://https://github.com/nico-audio/LyreDelayVST" target="_blank" rel="noopener" aria-label="github" class="text-muted">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+        </div>
+        <div>
         </div>
       </div>
     </div>
