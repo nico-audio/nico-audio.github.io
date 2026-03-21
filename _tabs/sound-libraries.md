@@ -216,7 +216,7 @@ order: 5
         </div>
         <div class="purchase-button">
           <a class="gumroad-button" href="https://spectrumlibraries.gumroad.com/l/shredfx">FREE on</a>
-          <a href="https://spectrumlibraries.com/shredfx" target="_blank" class="learn-more-button">Learn More</a>
+          <a href="https://spectrumlibraries.com/shred-fx" target="_blank" class="learn-more-button">Learn More</a>
         </div>
       </div>
     </div>
