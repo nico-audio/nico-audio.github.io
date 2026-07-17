@@ -26,7 +26,7 @@ Here are some of the projects and tools I've worked on. Some of them are part of
     <div class="col-lg-6 mb-4">
     <div class="card h-100" style="background-color: #313134;">
       <a href="">
-        <img class="card-img-top" src="assets/img/LyreVST_screenshot_preview_update.png" alt="Lyre VST Plugin">
+        <img class="card-img-top" src="assets/img/lyre_vst_july2026.png" alt="Lyre VST Plugin">
       </a>
       <div class="card-body">
         <h4 class="card-title">
