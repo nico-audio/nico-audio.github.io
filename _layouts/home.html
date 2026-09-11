@@ -1,102 +1,135 @@
 ---
 layout: page
-# The Home page layout
+title: "Nico — Game Audio & Computer Music"
 ---
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+
 <style>
-  .bio-card {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* Align items to the start */
-    margin-bottom: 5px;
-    padding: 20px;
-    background-color: #1b1b1e; /* Updated background color */
-    border-radius: 4px;
-    margin-top: 20px;
-    color: #fff; /* Updated text color to white */
-  }
-  
-  .bio-image {
-  flex: 0 0 auto;
-  margin-right: 30px;
-  margin-bottom: 1px;
-  margin-top: 1px;
-  display: flex;
+.lp-page{
+  --lp-paper: rgb(27, 27, 30);
+  --lp-paper-raised: rgb(31, 32, 38);
+  --lp-line: rgb(49, 49, 52);
+  --lp-ink: #EDEDEC;
+  --lp-ink-soft: rgb(165, 166, 168);
+  --lp-copper: #D98A4C;
+  --lp-copper-dim: #A9714B;
+  --lp-mono: 'IBM Plex Mono', monospace;
+  --lp-display: 'Space Grotesk', sans-serif;
+
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.lp-page *{ box-sizing: border-box; }
+@media (max-width: 640px){ .lp-page{ padding: 0 20px; } }
+
+/* ===== HERO / BIO ===== */
+.lp-hero{
+  padding: 24px 0 64px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 48px;
   align-items: center;
 }
-
-.bio-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px; /* Added border-radius for rounded borders */
+@media (max-width: 680px){
+  .lp-hero{ grid-template-columns: 1fr; padding-top: 16px; text-align: center; gap: 28px; }
 }
-  
-  .bio-content {
-    flex: 1 1 auto;
-  }
-  
-  .images-container {
-  margin-top: 80px;
-  text-align: center; /* Center the images horizontally */
+.lp-hero-portrait{
+  width: 220px;
+  height: 260px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--lp-line);
+  background: var(--lp-paper-raised);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--lp-mono);
+  font-size: 11px;
+  color: var(--lp-ink-soft);
+  text-align: center;
+  flex-shrink: 0;
 }
+@media (max-width: 680px){ .lp-hero-portrait{ margin: 0 auto; } }
+.lp-hero-portrait img{ width: 100%; height: 100%; object-fit: cover; display: block; }
 
-.images-container img {
-  display: inline-block;
-  margin-right: 40px;
-  margin-bottom: 10px;
-  max-width: 100%;
-  height: auto;
+.lp-hero-eyebrow{
+  font-family: var(--lp-mono); font-size: 12px; color: var(--lp-copper); margin: 0 0 10px 0;
 }
-  
-  /* Responsive styles */
-  @media (max-width: 768px) {
-    .bio-card {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .bio-image {
-      margin-right: 0;
-      margin-bottom: 5px;
-    }
-  }
+.lp-hero-name{
+  font-family: var(--lp-display); font-weight: 600; margin: 0;
+  font-size: clamp(30px, 4.5vw, 42px); line-height: 1.1; color: var(--lp-ink);
+}
+.lp-hero-pronouns{
+  font-family: var(--lp-mono); font-size: 13px; color: var(--lp-ink-soft); font-weight: 400;
+  margin-left: 10px;
+}
+.lp-hero-bio{ margin-top: 18px; max-width: 60ch; }
+@media (max-width: 680px){ .lp-hero-bio{ margin-left: auto; margin-right: auto; } }
+.lp-hero-bio p{ margin: 0 0 14px 0; font-size: 15.5px; color: var(--lp-ink-soft); }
+.lp-hero-bio p:last-child{ margin-bottom: 0; }
+.lp-hero-bio b{ color: var(--lp-ink); font-weight: 500; }
 
-  .images-container img {
-    margin-bottom: 40px; /* Adjust the gap between images in mobile */
-  }
+/* ===== CERTIFICATIONS ===== */
+.lp-certs{
+  padding: 20px 0 72px;
+  text-align: center;
+}
+.lp-certs-eyebrow{
+  font-family: var(--lp-mono); font-size: 12px; color: var(--lp-copper);
+  letter-spacing: 0.04em;
+  margin: 0 0 28px 0;
+}
+.lp-cert-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+.lp-cert-badge{
+  height: 64px;
+  width: auto;
+  opacity: 0.75;
+  filter: grayscale(40%);
+  transition: opacity 0.2s, filter 0.2s;
+}
+.lp-cert-badge:hover{ opacity: 1; filter: grayscale(0%); }
+</style>
 
-  </style>
-  
-  
-  
 {% include lang.html %}
 
-<div class="bio-card">
-  <div class="bio-image">
-    <!-- Add your image here -->
-    <img src="https://github.com/nico-audio/nico-audio.github.io/assets/110834120/6557b547-031f-4449-bcea-f3c941400e07"{: width="250" height="100" } alt="Bio Image">
+<div class="lp-page">
+
+  <!-- HERO / BIO -->
+  <div class="lp-hero">
+    <div class="lp-hero-portrait">
+      <img src="https://github.com/nico-audio/nico-audio.github.io/assets/110834120/6557b547-031f-4449-bcea-f3c941400e07" width="220" height="260" alt="Portrait">
+    </div>
+    <div>
+      <p class="lp-hero-eyebrow">GAME AUDIO &amp; COMPUTER MUSIC</p>
+      <h2 class="lp-hero-name">Nico Vieira<span class="lp-hero-pronouns">(They/them)</span></h2>
+      <div class="lp-hero-bio">
+      I'm an <b>audio designer for videogames</b> and computer musician, originally from Brazil, currently based in <b>Portugal</b>. With a background in
+      interdisciplinary studies, I started my journey in audio with electronic music, working live and producing in studio.</p> 
+      <b>Sculping sounds</b> was always fascinating to me and with time I developed a special interest in synthesizers and <b>interactivity</b>
+      which would later lead me into sound design and <b>game audio</b>.</p>
+      I've had the chance to <b>contribute in titles</b> such as <b>Grid Force - Mask of the Goddess</b> and <b>SGC - Short Games Collection</b>. 
+      Currently, I am working on sound libraries and <b>VST plugin development</b> in my independent project <b>Spectrum Libraries</b> (more coming soon!).
+      </div>
+    </div>
   </div>
 
-  <div class="bio-content">
-    <!-- Add your mini bio here -->
-    <br>
-    <p>Hi, I'm <b>Nico (they/them)</b>, I'm an <b>audio designer for videogames</b> and computer
-      musician, originally from Salvador, Brazil, currently based in <b>Lisbon, Portugal</b>. I hold a Bachelor of Arts degree in interdisciplinary studies.</p>
-      <p>Before I started working in game development 
-      I was an electronic music producer and worked in live performances with other musicians but I always loved the studio work,
-      <b>processing sounds and experimenting with them</b>.</p>
-      <p>My initial fascination with <b>"sculpting" sounds</b> with synthesizers developed into an interest in constructing 
-      <b>interactive experiences</b> and <b>immersive worlds</b> through audio.
-      As an audio artist with a background in interdisciplinary studies I found in games the perfect media to do so, which ultimately guided me into the world of <b>game audio</b>, where I could develop my sound design skills and also audio implementation skills in different environments. </p>
-      You can find some of my <b>work featured</b> in titles such as <b>Grid Force - Mask of the Goddess</b> and <b>SGC - Short Games Collection</b>. I am currently working on sound libraries in my independent project
-      <a href="https://spectrumlibraries.com/" target="_blank"> <b>Spectrum Libraries</b></a> (more coming soon!).
+  <!-- CERTIFICATIONS -->
+  <div class="lp-certs">
+    <p class="lp-certs-eyebrow">CERTIFICATIONS</p>
+    <div class="lp-cert-row">
+      <img class="lp-cert-badge" src="https://user-images.githubusercontent.com/110834120/249758515-0e8bff35-585e-4cea-bca7-cf2bab05a613.png" alt="Certification 1">
+      <img class="lp-cert-badge" src="https://user-images.githubusercontent.com/110834120/249758629-050e3bf6-9e02-4db2-8eaa-44bd51baea5f.png" alt="Certification 2">
+      <img class="lp-cert-badge" src="https://user-images.githubusercontent.com/110834120/253316850-78f26a69-7519-49d7-8010-19f9096ba085.png" alt="Certification 3">
+    </div>
   </div>
-</div>
 
-<div class="images-container">
-  <div class="images">
-    <img src="https://user-images.githubusercontent.com/110834120/249758515-0e8bff35-585e-4cea-bca7-cf2bab05a613.png"{: width="200" height="300" } alt="Image 1">
-    <img src="https://user-images.githubusercontent.com/110834120/249758629-050e3bf6-9e02-4db2-8eaa-44bd51baea5f.png"{: width="200" height="300" } alt="Image 2">
-    <img src="https://user-images.githubusercontent.com/110834120/253316850-78f26a69-7519-49d7-8010-19f9096ba085.png"{: width="200" height="300" } alt="Image 3">
-    <!-- Add more images as needed -->
-  </div>
 </div>
