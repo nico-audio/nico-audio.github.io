@@ -1,0 +1,210 @@
+---
+layout: page
+# All the Categories of posts
+---
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+.cat-page{
+  --cat-paper: rgb(27, 27, 30);
+  --cat-paper-raised: rgb(31, 32, 38);
+  --cat-line: rgb(49, 49, 52);
+  --cat-ink: #EDEDEC;
+  --cat-ink-soft: rgb(165, 166, 168);
+  --cat-copper: #D98A4C;
+  --cat-copper-dim: #A9714B;
+  --cat-mono: 'IBM Plex Mono', monospace;
+  --cat-display: 'Space Grotesk', sans-serif;
+}
+
+.cat-page .cat-eyebrow{
+  font-family: var(--cat-mono);
+  font-size: 12px;
+  color: var(--cat-copper);
+  margin: 0 0 24px 0;
+}
+
+/* top-level group */
+.cat-page .card.categories{
+  background: var(--cat-paper-raised);
+  border: 1px solid var(--cat-line);
+  border-radius: 4px;
+  box-shadow: none;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.cat-page .card-header{
+  background: transparent;
+  border: none;
+  padding: 14px 18px;
+  font-family: var(--cat-display);
+}
+.cat-page .card-header .fa-folder,
+.cat-page .card-header .fa-folder-open{
+  color: var(--cat-copper);
+}
+.cat-page .card-header a{
+  color: var(--cat-ink);
+  text-decoration: none;
+  font-weight: 500;
+}
+.cat-page .card-header a:hover{ color: var(--cat-copper); }
+.cat-page .card-header .text-muted{
+  color: var(--cat-ink-soft) !important;
+  font-family: var(--cat-mono);
+  font-size: 12px;
+}
+.cat-page .category-trigger{
+  color: var(--cat-ink-soft);
+}
+.cat-page .category-trigger:hover{ color: var(--cat-copper); }
+.cat-page .category-trigger.disabled{ opacity: 0.4; }
+
+/* sub-categories */
+.cat-page .list-group-item{
+  background: var(--cat-paper);
+  border-color: var(--cat-line);
+  border-left: none;
+  border-right: none;
+  padding: 12px 18px 12px 40px;
+  font-family: var(--cat-display);
+}
+.cat-page .list-group-item .fa-folder{
+  color: var(--cat-ink-soft);
+}
+.cat-page .list-group-item a{
+  color: var(--cat-ink);
+  text-decoration: none;
+  font-weight: 500;
+}
+.cat-page .list-group-item a:hover{ color: var(--cat-copper); }
+.cat-page .list-group-item .text-muted{
+  color: var(--cat-ink-soft) !important;
+  font-family: var(--cat-mono);
+  font-size: 11.5px;
+}
+</style>
+
+<div class="cat-page">
+
+<p class="cat-eyebrow">BROWSE BY TOPIC</p>
+
+{% include lang.html %}
+
+{% assign HEAD_PREFIX = "h_" %}
+{% assign LIST_PREFIX = "l_" %}
+
+{% assign group_index = 0 %}
+
+{% assign sort_categories = site.categories | sort %}
+
+{% for category in sort_categories %}
+  {% assign category_name = category | first %}
+  {% assign posts_of_category = category | last %}
+  {% assign first_post = posts_of_category | first %}
+
+  {% if category_name == first_post.categories[0] %}
+    {% assign sub_categories = "" | split: "" %}
+
+    {% for post in posts_of_category %}
+      {% assign second_category = post.categories[1] %}
+      {% if second_category %}
+        {% unless sub_categories contains second_category %}
+          {% assign sub_categories = sub_categories | push: second_category %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign sub_categories = sub_categories | sort %}
+    {% assign sub_categories_size = sub_categories | size %}
+
+  <div class="card categories">
+    <!-- top-category -->
+    <div id="{{ HEAD_PREFIX }}{{ group_index }}"
+      class="card-header d-flex justify-content-between hide-border-bottom">
+      <span>
+        <i class="far fa-folder{% if sub_categories_size > 0 %}-open{% endif %} fa-fw"></i>
+
+        {% capture _category_url %}/categories/{{ category_name | slugify | url_encode }}/{% endcapture %}
+        <a href="{{ _category_url | relative_url }}" class="ml-1 mr-2">{{ category_name }}</a>
+
+        <!-- content count -->
+        {% assign top_posts_size = site.categories[category_name] | size %}
+        <span class="text-muted small font-weight-light">
+          {% if sub_categories_size > 0 %}
+            {{ sub_categories_size }}
+            {% if sub_categories_size > 1 %}
+              {{ site.data.locales[lang].categories.category_measure.plural
+                | default: site.data.locales[lang].categories.category_measure }}
+            {% else %}
+              {{ site.data.locales[lang].categories.category_measure.singular
+                | default: site.data.locales[lang].categories.category_measure }}
+            {% endif %},
+          {% endif %}
+
+          {{ top_posts_size }}
+
+          {% if top_posts_size > 1 %}
+            {{ site.data.locales[lang].categories.post_measure.plural
+              | default: site.data.locales[lang].categories.post_measure }}
+          {% else %}
+            {{ site.data.locales[lang].categories.post_measure.singular
+              | default: site.data.locales[lang].categories.post_measure }}
+          {% endif %}
+        </span>
+      </span>
+
+      <!-- arrow -->
+      {% if sub_categories_size > 0%}
+      <a href="#{{ LIST_PREFIX }}{{ group_index }}" data-toggle="collapse"
+        aria-expanded="true" aria-label="{{ HEAD_PREFIX }}{{ group_index }}-trigger"
+        class="category-trigger hide-border-bottom">
+        <i class="fas fa-fw fa-angle-down"></i>
+      </a>
+      {% else %}
+      <span data-toggle="collapse" class="category-trigger hide-border-bottom disabled">
+        <i class="fas fa-fw fa-angle-right"></i>
+      </span>
+      {% endif %}
+
+    </div> <!-- .card-header -->
+
+    <!-- Sub-categories -->
+    {% if sub_categories_size > 0 %}
+    <div id="{{ LIST_PREFIX }}{{ group_index }}" class="collapse show" aria-expanded="true">
+      <ul class="list-group">
+        {% for sub_category in sub_categories %}
+        <li class="list-group-item">
+          <i class="far fa-folder fa-fw"></i>
+
+          {% capture _sub_ctg_url %}/categories/{{ sub_category | slugify | url_encode }}/{% endcapture %}
+          <a href="{{ _sub_ctg_url | relative_url }}" class="ml-1 mr-2">{{ sub_category }}</a>
+
+          {% assign posts_size = site.categories[sub_category] | size %}
+          <span class="text-muted small font-weight-light">
+            {{ posts_size }}
+
+            {% if posts_size > 1 %}
+              {{ site.data.locales[lang].categories.post_measure.plural
+                | default: site.data.locales[lang].categories.post_measure }}
+            {% else %}
+              {{ site.data.locales[lang].categories.post_measure.singular
+                | default: site.data.locales[lang].categories.post_measure }}
+            {% endif %}
+          </span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+  </div> <!-- .card -->
+
+    {% assign group_index = group_index | plus: 1 %}
+
+  {% endif %}
+{% endfor %}
+
+</div>
