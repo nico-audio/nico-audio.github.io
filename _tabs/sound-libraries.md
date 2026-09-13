@@ -110,14 +110,14 @@ order: 5
 <div class="sl-page">
 
   <div class="sl-logo-row">
-    <img src="assets/img/Spectrum-logo.png" alt="Spectrum logo">
+    <img src="../assets/img/Spectrum-logo.png" alt="Spectrum logo">
   </div>
 
   <p class="sl-intro">In the last few years I've dedicated a lot of time to collecting, exploring, and working on sounds. Now I want to share some of it — that's why I created <a href="https://spectrumlibraries.com" target="_blank" rel="noopener noreferrer">Spectrum Libraries</a>.</p>
 
   <div class="sl-grid">
     <div class="sl-card">
-      <img class="sl-cover" src="assets/img/Skateboard_thumbnail.png" alt="Skateboard Sound Library cover art">
+      <img class="sl-cover" src="../assets/img/Skateboard_thumbnail.png" alt="Skateboard Sound Library cover art">
       <div class="sl-body">
         <p class="sl-specs">96kHz · 24-bit · UCS metadata</p>
         <h4 class="sl-title">SKATEBOARD</h4>
@@ -129,7 +129,7 @@ order: 5
       </div>
     </div>
     <div class="sl-card">
-      <img class="sl-cover" src="assets/img/Interfaces_thumbnail.png" alt="Interfaces Sound Library">
+      <img class="sl-cover" src="../assets/img/Interfaces_thumbnail.png" alt="Interfaces Sound Library">
       <div class="sl-body">
         <p class="sl-specs">96kHz · 24-bit · UCS metadata</p>
         <h4 class="sl-title">INTERFACES</h4>
@@ -141,7 +141,7 @@ order: 5
       </div>
     </div>
     <div class="sl-card">
-      <img class="sl-cover" src="assets/img/ShredFX_thumbnail.png" alt="ShredFX cover art">
+      <img class="sl-cover" src="../assets/img/ShredFX_thumbnail.png" alt="ShredFX cover art">
       <div class="sl-body">
         <p class="sl-specs">96kHz · 24-bit · UCS metadata</p>
         <h4 class="sl-title">SHRED FX</h4>

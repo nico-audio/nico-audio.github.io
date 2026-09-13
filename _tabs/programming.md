@@ -184,7 +184,7 @@ order: 3
         </div>
       </div>
       <div class="pr-card">
-        <div class="pr-card-thumb" data-full-img="assets/img/Post_EasterEgg/Fig1_EasterEgg_patch.png" role="button" tabindex="0"
+        <div class="pr-card-thumb" data-full-img="../assets/img/Post_EasterEgg/Fig1_EasterEgg_patch.png" role="button" tabindex="0"
         style="background-image:url('/assets/img/Post_EasterEgg/Fig1_EasterEgg_patch.png')" aria-label="Easter egg screenshot"></div>
         <div class="pr-card-body">
           <div class="pr-badge-row">
@@ -201,7 +201,7 @@ order: 3
         </div>
       </div>
       <div class="pr-card">
-        <div class="pr-card-thumb" data-full-img="assets/img/Post_DopplerEffect/doppler-unity.gif" role="button" tabindex="0"
+        <div class="pr-card-thumb" data-full-img="../assets/img/Post_DopplerEffect/doppler-unity.gif" role="button" tabindex="0"
         style="background-image:url('/assets/img/Post_DopplerEffect/doppler-unity.gif')" aria-label="Doppler effect demo"></div>
         <div class="pr-card-body">
           <div class="pr-badge-row">
@@ -226,7 +226,7 @@ order: 3
     <h2 class="pr-group-title">Game Development</h2>
     <div class="pr-grid">
       <div class="pr-card">
-        <div class="pr-card-thumb" data-full-img="/assets/img/gordon-v1.gif" role="button" tabindex="0"
+        <div class="pr-card-thumb" data-full-img="../assets/img/gordon-v1.gif" role="button" tabindex="0"
         style="background-image:url('/assets/img/gordon-v1.gif')" aria-label="Gordons-island"></div>
         <div class="pr-card-body">
           <div class="pr-badge-row">
