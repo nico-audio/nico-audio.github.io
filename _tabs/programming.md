@@ -161,16 +161,13 @@ order: 3
 </style>
 
 <div class="pr-page">
-
-
-
   <!-- AUDIO PROGRAMMING -->
   <div class="pr-section pr-no-divider">
     <p class="pr-eyebrow">PROGRAMMING PROJECTS</p>
     <h2 class="pr-group-title">Audio programming</h2>
     <div class="pr-grid">
       <div class="pr-card">
-      <div class="pr-card-thumb" data-full-img="assets/img/lyredelay_vst_august2026.png" role="button" tabindex="0"
+      <div class="pr-card-thumb" data-full-img="../assets/img/lyredelay_vst_august2026.png" role="button" tabindex="0"
         style="background-image:url('/assets/img/lyredelay_vst_august2026.png')" aria-label="Expand Lyre screenshot"></div>
         <div class="pr-card-body">
           <div class="pr-badge-row">
