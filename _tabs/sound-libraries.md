@@ -1,224 +1,160 @@
 ---
-#layout: categories
 title: SOUND LIBRARIES
 icon: fas fa-stream
 order: 5
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+
 <style>
+.sl-page{
+  --sl-paper: rgb(27, 27, 30);
+  --sl-paper-raised: rgb(31, 32, 38);
+  --sl-line: rgb(49, 49, 52);
+  --sl-ink: #EDEDEC;
+  --sl-ink-soft: rgb(165, 166, 168);
+  --sl-copper: #D98A4C;
+  --sl-copper-dim: #A9714B;
+  --sl-mono: 'IBM Plex Mono', monospace;
+  --sl-display: 'Space Grotesk', sans-serif;
 
-/* Logo */
-.logo {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-    width: 200px;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 32px;
 }
+.sl-page *{ box-sizing: border-box; }
+@media (max-width: 640px){ .sl-page{ padding: 0 20px; } }
 
-.logo-container {
-    text-align: center;
+.sl-logo-row{ text-align: center; padding: 24px 0 8px; }
+.sl-logo-row img{ width: 160px; height: auto; }
+
+.sl-intro{
+  max-width: 60ch; margin: 24px auto 56px; text-align: center;
+  font-size: 15.5px; color: var(--sl-ink-soft);
 }
+.sl-intro a{ color: var(--sl-ink); text-decoration: none; border-bottom: 1px solid var(--sl-copper); }
+.sl-intro a:hover{ color: var(--sl-copper); }
 
-/* Gallery view */
-.image-gallery{
-  margin: 20px 0;
-  /*overflow: hidden; 
-  padding: 10px 0;*/
-}
-
-.grid-container {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-}
-
-.grid {
+.sl-grid{
+  padding-bottom: 56px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  gap: 20px;
 }
+@media (max-width: 720px){ .sl-grid{ grid-template-columns: 1fr; } }
 
-.grid-item {
-  position: relative;
+.sl-card{
+  background: var(--sl-paper-raised);
+  border: 1px solid var(--sl-line);
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.2s;
+}
+.sl-card:hover{ border-color: var(--sl-copper-dim); }
+
+.sl-cover{ aspect-ratio: 1/1; width: 100%; display: block; object-fit: cover; }
+
+.sl-body{ padding: 18px 20px; flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.sl-title{
+  font-family: var(--sl-display); font-weight: 600; font-size: 15px; margin: 0; color: var(--sl-ink);
+  letter-spacing: 0.01em;
+}
+.sl-specs{
+  font-family: var(--sl-mono); font-size: 10.5px; color: var(--sl-copper);
+  letter-spacing: 0.02em;
+}
+.sl-desc{ font-size: 13.5px; color: var(--sl-ink-soft); line-height: 1.5; margin: 0; }
+
+.sl-actions{
+  padding: 14px 20px 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.sl-buy-button{
+  flex: 1;
   text-align: center;
-  background-color: rgb(45, 46, 50); /* Charcoal gray */
-  border-radius: 15px;
-  padding: 1.5rem;
-  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
-  border: 1px solid #444;
+  padding: 9px 14px;
+  border-radius: 5px;
+  background: var(--sl-copper);
+  color: var(--sl-paper);
+  font-family: var(--sl-mono);
+  font-size: 12.5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
 }
-
-.grid-item:hover {
-  transform: scale(1.02);
-  border-color: #888;
-  z-index: 10;
-}
-
-.grid-item iframe {
-  width: 350px;
-  height: 225px;
-  object-fit: cover;
-  border: 0px;
-}
-
-/* Product Text */
-.product-text {
-  margin: 1.25rem 0;
-  color: #ccc;
-}
-
-.product-text h4 {
-  margin: 0 0 0.5rem 0;
-  color: #fff;
-  font-size: 1.2rem;
-}
-
-.product-text p {
-  margin: 0;
-  font-size: 0.9rem;
-  /*text-align: justify;*/
-}
-
-/* Buttons */
-.purchase-button {
+.sl-buy-button:hover{ background: var(--sl-copper-dim); }
+.sl-learn-more{
+  flex: 1;
   text-align: center;
-  margin-top: 1rem;
+  padding: 9px 14px;
+  border-radius: 5px;
+  border: 1px solid var(--sl-line);
+  color: var(--sl-ink-soft);
+  font-family: var(--sl-mono);
+  font-size: 12.5px;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
 }
+.sl-learn-more:hover{ border-color: var(--sl-copper); color: var(--sl-copper); }
 
-.learn-more-button {
-    display: block;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 0.5rem auto 0;
-    padding: 8px 16px;
-    font-size: 14px;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-}
-
-.learn-more-button:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-
-.learn-more-button:hover:before {
-    opacity: 1;
-}
-
-.learn-more-button:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-
-.learn-more-button:active {
-    color: #000
-}
-
-.learn-more-button:active:after {
-    background: transparent;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .grid-item {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .grid-item iframe {
-    width: 100%;
-    height: auto;
-    padding-bottom: 0;
-  }
-}
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+@media (max-width: 380px){
+  .sl-actions{ flex-direction: column; }
 }
 </style>
 
-<!-- Gumroad button -->
-<script src="https://gumroad.com/js/gumroad.js"></script>
+<div class="sl-page">
 
-<!-- Logo -->
-<div class="logo-container">
-  <img src="assets/img/Spectrum-logo.png" alt="Spectrum Logo" class="logo">
-</div>
+  <div class="sl-logo-row">
+    <img src="assets/img/Spectrum-logo.png" alt="Spectrum logo">
+  </div>
 
-<!-- Intro text -->
-<p>In the last years I've dedicated a lot of time into collecting, exploring and working on sounds. Now I want to share some of it, that's why I've created <a href="https://spectrumlibraries.com" target="_blank" rel="noopener noreferrer"> Spectrum Libraries.</a></p>
-<br />
+  <p class="sl-intro">In the last few years I've dedicated a lot of time to collecting, exploring, and working on sounds. Now I want to share some of it — that's why I created <a href="https://spectrumlibraries.com" target="_blank" rel="noopener noreferrer">Spectrum Libraries</a>.</p>
 
-<!-- Gallery view -->
-<div class="image-gallery">
-  <div class="grid-container">
-    <div class="grid">
-      <div class="grid-item">
-        <img src="assets/img/Skateboard_thumbnail.png" alt="Skateboard Sound Library" style="max-width: 100%; height: auto; border-radius: 8px;" width="300" height="300"/>
-        <div class="product-text">
-          <h4>SKATEBOARD</h4>
-          <p>96kHz, 24 bit, 100% royalty-free sound library recorded across different skateparks. Includes UCS compliant metadata.</p>
-        </div>
-        <div class="purchase-button">
-          <a class="gumroad-button" href="https://spectrumlibraries.gumroad.com/l/skateboard">Buy on</a>
-          <a href="https://spectrumlibraries.com/skateboard" target="_blank" class="learn-more-button">Learn More</a>
-        </div>
+  <div class="sl-grid">
+    <div class="sl-card">
+      <img class="sl-cover" src="assets/img/Skateboard_thumbnail.png" alt="Skateboard Sound Library cover art">
+      <div class="sl-body">
+        <p class="sl-specs">96kHz · 24-bit · UCS metadata</p>
+        <h4 class="sl-title">SKATEBOARD</h4>
+        <p class="sl-desc">100% royalty-free sound library 100% royalty-free sound library recorded across different skateparks.</p>
       </div>
-      <div class="grid-item">
-        <img src="assets/img/Interfaces_thumbnail.png" alt="Interfaces Sound Library" style="max-width: 100%; height: auto; border-radius: 8px;" width="300" height="300"/>
-        <div class="product-text">
-          <h4>INTERFACES</h4>
-          <p>96kHz, 24 bit, 100% royalty-free sound library featuring designed user interface sounds. Includes UCS compliant metadata.</p>
-        </div>
-        <div class="purchase-button">
-          <a class="gumroad-button" href="https://spectrumlibraries.gumroad.com/l/interfaces">Buy on</a>
-          <a href="https://spectrumlibraries.com/interfaces" target="_blank" class="learn-more-button">Learn More</a>
-        </div>
+      <div class="sl-actions">
+        <a class="gumroad-button sl-buy-button" href="https://spectrumlibraries.gumroad.com/l/skateboard">Buy on Gumroad</a>
+        <a class="sl-learn-more" href="https://spectrumlibraries.com/skateboard" target="_blank" rel="noopener">Learn more</a>
       </div>
-      <div class="grid-item">
-        <img src="assets/img/ShredFX_thumbnail.png" alt="ShredFX" style="max-width: 100%; height: auto; border-radius: 8px;" width="300" height="300"/>
-        <div class="product-text">
-          <h4>SHRED FX</h4>
-          <p>96kHz, 24 bit, 100% royalty-free sound library featuring cloth destruction sounds. Includes UCS compliant metadata.</p>
-        </div>
-        <div class="purchase-button">
-          <a class="gumroad-button" href="https://spectrumlibraries.gumroad.com/l/shredfx">FREE on</a>
-          <a href="https://spectrumlibraries.com/shred-fx" target="_blank" class="learn-more-button">Learn More</a>
-        </div>
+    </div>
+    <div class="sl-card">
+      <img class="sl-cover" src="assets/img/Interfaces_thumbnail.png" alt="Interfaces Sound Library">
+      <div class="sl-body">
+        <p class="sl-specs">96kHz · 24-bit · UCS metadata</p>
+        <h4 class="sl-title">INTERFACES</h4>
+        <p class="sl-desc">100% royalty-free sound library featuring designed user interface sounds. Includes UCS compliant metadata.</p>
+      </div>
+      <div class="sl-actions">
+        <a class="gumroad-button sl-buy-button" href="https://spectrumlibraries.gumroad.com/l/interfaces">Buy on Gumroad</a>
+        <a class="sl-learn-more" href="https://spectrumlibraries.com/interfaces" target="_blank" rel="noopener">Learn more</a>
+      </div>
+    </div>
+    <div class="sl-card">
+      <img class="sl-cover" src="assets/img/ShredFX_thumbnail.png" alt="ShredFX cover art">
+      <div class="sl-body">
+        <p class="sl-specs">96kHz · 24-bit · UCS metadata</p>
+        <h4 class="sl-title">SHRED FX</h4>
+        <p class="sl-desc">100% royalty-free sound library featuring cloth destruction sounds.</p>
+      </div>
+      <div class="sl-actions">
+        <a class="gumroad-button sl-buy-button" href="https://spectrumlibraries.gumroad.com/l/shredfx">Free on Gumroad</a>
+        <a class="sl-learn-more" href="https://spectrumlibraries.com/shred-fx" target="_blank" rel="noopener">Learn more</a>
       </div>
     </div>
   </div>
+
 </div>
+
+<!-- Gumroad overlay script — required for .gumroad-button to open the purchase popup -->
+<script src="https://gumroad.com/js/gumroad.js"></script>
