@@ -171,7 +171,7 @@ order: 3
     <div class="pr-grid">
       <div class="pr-card">
       <div class="pr-card-thumb" data-full-img="assets/img/lyredelay_vst_august2026.png" role="button" tabindex="0"
-        style="background-image:url('/assets/img/lyredelay_vst_august2026.png')" aria-label="Expand Lyre screenshot"></div>
+        style="background-image:url('assets/img/lyredelay_vst_august2026.png')" aria-label="Expand Lyre screenshot"></div>
         <div class="pr-card-body">
           <div class="pr-badge-row">
             <span class="pr-badge pr-status">Work in progress</span>
@@ -188,7 +188,7 @@ order: 3
       </div>
       <div class="pr-card">
         <div class="pr-card-thumb" data-full-img="assets/img/Post_EasterEgg/Fig1_EasterEgg_patch.png" role="button" tabindex="0"
-        style="background-image:url('/assets/img/Post_EasterEgg/Fig1_EasterEgg_patch.png')" aria-label="Easter egg screenshot"></div>
+        style="background-image:url('assets/img/Post_EasterEgg/Fig1_EasterEgg_patch.png')" aria-label="Easter egg screenshot"></div>
         <div class="pr-card-body">
           <div class="pr-badge-row">
             <span class="pr-badge">Pure Data</span>
@@ -230,7 +230,7 @@ order: 3
     <div class="pr-grid">
       <div class="pr-card">
         <div class="pr-card-thumb" data-full-img="/assets/img/gordon-v1.gif" role="button" tabindex="0"
-        style="background-image:url('/assets/img/gordon-v1.gif')" aria-label="Gordons-island"></div>
+        style="background-image:url('assets/img/gordon-v1.gif')" aria-label="Gordons-island"></div>
         <div class="pr-card-body">
           <div class="pr-badge-row">
             <span class="pr-badge">C++</span>
