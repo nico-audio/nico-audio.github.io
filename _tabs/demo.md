@@ -1,7 +1,7 @@
 ---
-title: WIP DEMO PAGE
+title: Demo
 icon: fas fa-headphones
-order: 12
+order: 1
 ---
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
