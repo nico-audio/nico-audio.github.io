@@ -192,7 +192,7 @@ order: 3
             <span class="pr-badge">Sound Design</span>
             <span class="pr-badge">Tooling</span>
           </div>
-          <h3 class="pr-card-title"><a href="/posts/easteregg/">Easter Egg Sound Design Tooll</a></h3>
+          <h3 class="pr-card-title"><a href="/posts/easteregg/">Easter Egg Sound Design Tool</a></h3>
           <p class="pr-card-text">A "happy accidents" sound design tool built in Pure Data. It allows for loading a sample, manipulating it through an FX chain, and capturing the output using a buffer.</p>
         </div>
         <div class="pr-card-footer">
