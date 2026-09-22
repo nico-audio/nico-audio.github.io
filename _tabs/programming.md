@@ -176,7 +176,7 @@ order: 3
             <span class="pr-badge">JUCE</span>
             <span class="pr-badge">VST Plugin</span>
           </div>
-          <h3 class="pr-card-title">Lyre - Granular Delay VST Plugin</h3>
+          <h3 class="pr-card-title"><a href="/posts/lyre-vst/">Lyre - Granular Delay VST Plugin</a></h3>
           <p class="pr-card-text">Lyre is a granular delay plugin built with the JUCE framework, designed as a tool for creative, experimental sound design or music. At its core it's a ping-pong delay that incorporates negative feedback and integrated filters, for producing new textures and exploring the sonic possibilities of this kind of system.</p>
         </div>
         <div class="pr-card-footer">
