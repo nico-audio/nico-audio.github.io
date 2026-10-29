@@ -250,7 +250,7 @@ order: 3
             <span class="pr-badge">Tooling</span>
             <span class="pr-badge">Game dev</span>
           </div>
-          <h3 class="pr-card-title"><a href="https://github.com/nico-audio/GordonsIsland" target="_blank" rel="noopener">Batch Renamer Tool for Audio Files</a></h3>
+          <h3 class="pr-card-title">Batch Renamer Tool for Audio Files</h3>
           <p class="pr-card-text">A CLI tool for automating audio file renaming using the UCS system. This is particularly useful if you have to rename multiple assets for a game or if you need to rename files from your recording session</p>
         </div>
       </div>
