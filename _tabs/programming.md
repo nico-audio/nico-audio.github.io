@@ -241,6 +241,19 @@ order: 3
           <a class="pr-icon-link" href="https://github.com/nico-audio/GordonsIsland" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
         </div>
       </div>
+      <div class="pr-card">
+        <div class="pr-card-thumb" data-full-img="../assets/img/batch-renamer_demo2.gif" role="button" tabindex="0"
+        style="background-image:url('/assets/img/batch-renamer_demo2.gif')" aria-label="BatchRenamer"></div>
+        <div class="pr-card-body">
+          <div class="pr-badge-row">
+            <span class="pr-badge">Python</span>
+            <span class="pr-badge">Tooling</span>
+            <span class="pr-badge">Game dev</span>
+          </div>
+          <h3 class="pr-card-title"><a href="https://github.com/nico-audio/GordonsIsland" target="_blank" rel="noopener">Batch Renamer Tool for Audio Files</a></h3>
+          <p class="pr-card-text">A CLI tool for automating audio file renaming using the UCS system. This is particularly useful if you have to rename multiple assets for a game or if you need to rename files from your recording session</p>
+        </div>
+      </div>
     </div>
   </div>
 
