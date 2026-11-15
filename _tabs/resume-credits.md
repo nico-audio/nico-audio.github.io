@@ -276,6 +276,7 @@ order: 6
       <span class="rc-tag-pill">Unity Engine</span>
       <span class="rc-tag-pill">C#</span>
       <span class="rc-tag-pill">C++</span>
+      <span class="rc-tag-pill">Python</span>
       <span class="rc-tag-pill">Pure Data</span>
       <span class="rc-tag-pill">Unreal Blueprints</span>
       <span class="rc-tag-pill">JUCE</span>
